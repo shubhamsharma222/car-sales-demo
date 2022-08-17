@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="homestyle.css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/homestyle.css') }}" />
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
@@ -44,32 +44,32 @@
       <div class="cars-container container">
         <!-- box 1 -->
         <div class="box">
-          <img src="/image/img/car1.jpg" alt="" />
+          <img src="{{ url_for('static', filename='image/img/car1.jpg') }}" alt="" />
           <h2>Porche Car</h2>
         </div>
         <!-- box 2 -->
         <div class="box">
-          <img src="/image/img/car2.jpg" alt="" />
+          <img src="{{ url_for('static', filename='image/img/car2.jpg') }}" alt="" />
           <h2>Porche Car</h2>
         </div>
         <!-- box 3 -->
         <div class="box">
-          <img src="/image/img/car3.jpg" alt="" />
+          <img src="{{ url_for('static', filename='image/img/car3.jpg') }}" alt="" />
           <h2>Porche Car</h2>
         </div>
         <!-- box 4 -->
         <div class="box">
-          <img src="/image/img/car4.jpg" alt="" />
+          <img src="{{ url_for('static', filename='image/img/car4.jpg') }}" alt="" />
           <h2>Porche Car</h2>
         </div>
         <!-- box 5 -->
         <div class="box">
-          <img src="/image/img/car5.jpg" alt="" />
+          <img src="{{ url_for('static', filename='image/img/car5.jpg') }}" alt="" />
           <h2>Porche Car</h2>
         </div>
         <!-- box 6 -->
         <div class="box">
-          <img src="/image/img/car6.jpg" alt="" />
+          <img src="{{ url_for('static', filename='image/img/car6.jpg') }}" alt="" />
           <h2>Porche Car</h2>
         </div>
       </div>

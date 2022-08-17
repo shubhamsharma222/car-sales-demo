@@ -70,7 +70,7 @@ header.shadow{
     min-height: 640px;
     display: flex;
     align-items: center;
-    background-image: url(image/img/Background-home.png);
+    background-image: url(/image/img/Background-home.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center left;
